@@ -1,5 +1,5 @@
 [package]
-name = "ptools"
+name = "ptools2"
 version = "0.1.0"
 authors = ["John Gallagher"]
 license = "Apache-2.0"
@@ -7,21 +7,21 @@ description = "Utilities for inspecting Linux processes"
 readme = "README.md"
 
 [lib]
-name = "ptools"
-path = "src/ptools.rs"
+name = "ptools2"
+path = "src/ptools2.rs"
 
 [[bin]]
-name = "pargs"
-path = "src/bin/pargs.rs"
+name = "pargs2"
+path = "src/bin/pargs2.rs"
 [[bin]]
-name = "penv"
-path = "src/bin/penv.rs"
+name = "penv2"
+path = "src/bin/penv2.rs"
 [[bin]]
-name = "pfiles"
-path = "src/bin/pfiles.rs"
+name = "pfiles2"
+path = "src/bin/pfiles2.rs"
 [[bin]]
-name = "ptree"
-path = "src/bin/ptree.rs"
+name = "ptree2"
+path = "src/bin/ptree2.rs"
 
 [[bin]]
 name = "epoll_example"
@@ -56,8 +56,8 @@ separate-debug-symbols = true
 assets = [
   # List files we want explicitly so that we don't get the binaries intended for
   # testing.
-  ["target/release/pargs", "usr/bin/", "755"],
-  ["target/release/penv", "usr/bin/", "755"],
-  ["target/release/pfiles", "usr/bin/", "755"],
-  ["target/release/ptree", "usr/bin/", "755"],
+  ["target/release/pargs2", "usr/bin/", "755"],
+  ["target/release/penv2", "usr/bin/", "755"],
+  ["target/release/pfiles2", "usr/bin/", "755"],
+  ["target/release/ptree2", "usr/bin/", "755"],
 ]

@@ -22,7 +22,7 @@ override_dh_auto_build:
 	cargo build --release
 
 override_dh_auto_install:
-	dh_install target/release/pargs /usr/bin
-	dh_install target/release/penv /usr/bin
-	dh_install target/release/pfiles /usr/bin
-	dh_install target/release/ptree /usr/bin
+	dh_install target/release/pargs2 /usr/bin
+	dh_install target/release/penv2 /usr/bin
+	dh_install target/release/pfiles2 /usr/bin
+	dh_install target/release/ptree2 /usr/bin

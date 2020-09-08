@@ -14,8 +14,8 @@
 //   limitations under the License.
 //
 
-extern crate ptools;
+extern crate ptools2;
 
 fn main() {
-    ptools::pargs_main();
+    ptools2::penv_main();
 }

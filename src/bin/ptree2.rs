@@ -14,8 +14,8 @@
 //   limitations under the License.
 //
 
-extern crate ptools;
+extern crate ptools2;
 
 fn main() {
-    ptools::pfiles_main();
+    ptools2::ptree_main();
 }
